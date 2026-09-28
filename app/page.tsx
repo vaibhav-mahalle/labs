@@ -74,7 +74,12 @@ export default function Home() {
       </div>
 
       <footer className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-xs text-muted">
-        <span>vaibhav-labs</span>
+        <a
+          href="https://vaibhav-portfolio-black-two.vercel.app/"
+          className="hover:text-accent transition-colors"
+        >
+          &larr; back to portfolio
+        </a>
         <a
           href="https://github.com/vaibhav-mahalle/labs"
           target="_blank"
